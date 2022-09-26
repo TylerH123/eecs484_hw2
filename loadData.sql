@@ -116,16 +116,22 @@ INSERT INTO Enrollments
 VALUES (0, 2);
 
 INSERT INTO Enrollments 
-VALUES (0, 1); 
+VALUES (4, 1); 
 
 INSERT INTO Enrollments 
-VALUES (1, 1);
+VALUES (5, 1);
 
 INSERT INTO Enrollments 
-VALUES (2, 1);
+VALUES (6, 1);
 
 INSERT INTO Enrollments 
-VALUES (3, 1);
+VALUES (0, 1);
+
+INSERT INTO Enrollments 
+VALUES (7, 1);
+
+INSERT INTO Enrollments 
+VALUES (8, 1);
 
 INSERT INTO Enrollments 
 VALUES (3, 2);

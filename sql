@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git pull
+
 sqlplus -s tylhuang/Tyler123H! << EOF
 whenever sqlerror exit sql.sqlcode;
 set echo off 

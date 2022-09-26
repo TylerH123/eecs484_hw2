@@ -26,13 +26,13 @@ INSERT INTO Courses
 VALUES (1, 'EECS 484');
 
 INSERT INTO Enrollments
-VALUES (6, 0);
+VALUES (0, 6);
 
 INSERT INTO Enrollments
-VALUES (5, 0);
+VALUES (0, 5);
 
 INSERT INTO Enrollments
-VALUES (4, 0);
+VALUES (0, 4);
 
 INSERT INTO Enrollments
 VALUES (0, 1);
@@ -41,7 +41,7 @@ INSERT INTO Enrollments
 VALUES (1, 1);
 
 INSERT INTO Enrollments
-VALUES (2, 0);
+VALUES (0, 2);
 
 INSERT INTO Enrollments
-VALUES (3, 0);
+VALUES (0, 3);

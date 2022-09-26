@@ -131,13 +131,13 @@ INSERT INTO Enrollments
 VALUES (3, 0);
 
 INSERT INTO Enrollments 
-VALUES (8, 2); 
+VALUES (8, 0); 
 
 INSERT INTO Enrollments 
-VALUES (7, 2); 
+VALUES (7, 0); 
 
 INSERT INTO Enrollments 
-VALUES (0, 2); 
+VALUES (0, 0); 
 
 INSERT INTO Projects 
 VALUES (1, 'p1');

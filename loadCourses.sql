@@ -1,0 +1,39 @@
+INSERT INTO Courses 
+VALUES 
+(0, 'EECS482');
+
+INSERT INTO Courses 
+VALUES 
+(1, 'EECS484');
+
+INSERT INTO Courses 
+VALUES 
+(2, 'EECS485');
+
+INSERT INTO Courses 
+VALUES 
+(3, 'EECS280');
+
+INSERT INTO Courses 
+VALUES 
+(4, 'EECS442');
+
+INSERT INTO Courses 
+VALUES 
+(5, 'EECS445');
+
+INSERT INTO Courses 
+VALUES 
+(6, 'EECS492');
+
+INSERT INTO Courses 
+VALUES 
+(7, 'EECS486');
+
+INSERT INTO Courses 
+VALUES 
+(8, 'EECS281');
+
+INSERT INTO Courses 
+VALUES 
+(9, 'EECS483');

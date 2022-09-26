@@ -1,179 +1,62 @@
-INSERT INTO Students 
-(Name, Major) VALUES 
-('TYLER', 'CS');
+-- 442, 445, 492
+INSERT INTO Enrollments 
+VALUES (4, 1); 
 
-INSERT INTO Students 
-(Name, Major) VALUES
-('JEFF', 'CS');
+INSERT INTO Enrollments 
+VALUES (5, 1);
 
-INSERT INTO Students 
-(Name, Major) VALUES 
-('AMY', 'ART');
+INSERT INTO Enrollments 
+VALUES (6, 1);
 
-INSERT INTO Students 
-(Name, Major) VALUES 
-('BOB', 'MATH');
-
-INSERT INTO Students 
-(Name, Major) VALUES 
-('CAM', 'EE');
-
-INSERT INTO Students 
-(Name, Major) VALUES 
-('DAVID', 'EE');
-
-INSERT INTO Students 
-(Name, Major) VALUES 
-('EDWARD', 'EE');
-
-INSERT INTO Students 
-(Name, Major) VALUES 
-('FRED', 'EE');
-
-INSERT INTO Students 
-(Name, Major) VALUES 
-('GEORGE','EE');
-
-INSERT INTO Students 
-(Name, Major) VALUES 
-('HARRY', 'EE');
-
-INSERT INTO Students 
-(Name, Major) VALUES 
-('IZZY', 'EE');
-
-INSERT INTO Students 
-(Name, Major) VALUES 
-('JARED', 'EE');
-
-INSERT INTO Courses 
-VALUES 
-(0, 'EECS482');
-
-INSERT INTO Courses 
-VALUES 
-(1, 'EECS484');
-
-INSERT INTO Courses 
-VALUES 
-(2, 'EECS485');
-
-INSERT INTO Courses 
-VALUES 
-(3, 'EECS280');
-
-INSERT INTO Courses 
-VALUES 
-(4, 'EECS442');
-
-INSERT INTO Courses 
-VALUES 
-(5, 'EECS445');
-
-INSERT INTO Courses 
-VALUES 
-(6, 'EECS492');
-
-INSERT INTO Courses 
-VALUES 
-(7, 'EECS486');
-
-INSERT INTO Courses 
-VALUES 
-(8, 'EECS281');
-
-INSERT INTO Courses 
-VALUES 
-(9, 'EECS483');
-
--- INSERT INTO Enrollments 
--- VALUES (0, 12); 
-
--- INSERT INTO Enrollments 
--- VALUES (0, 11);
-
--- INSERT INTO Enrollments 
--- VALUES (0, 10);
-
--- INSERT INTO Enrollments 
--- VALUES (0, 9);
-
--- INSERT INTO Enrollments 
--- VALUES (0, 8);
-
--- INSERT INTO Enrollments 
--- VALUES (0, 7);
-
--- INSERT INTO Enrollments 
--- VALUES (0, 6);
-
--- INSERT INTO Enrollments 
--- VALUES (0, 5);
-
--- INSERT INTO Enrollments 
--- VALUES (0, 4); 
-
--- INSERT INTO Enrollments 
--- VALUES (0, 3); 
-
--- INSERT INTO Enrollments 
--- VALUES (0, 2);
-
--- INSERT INTO Enrollments 
--- VALUES (4, 1); 
-
--- INSERT INTO Enrollments 
--- VALUES (5, 1);
-
--- INSERT INTO Enrollments 
--- VALUES (6, 1);
-
--- INSERT INTO Enrollments 
--- VALUES (0, 1);
-
--- INSERT INTO Enrollments 
--- VALUES (7, 1);
-
--- INSERT INTO Enrollments 
--- VALUES (8, 1);
-
--- INSERT INTO Enrollments 
--- VALUES (3, 2);
-
--- INSERT INTO Enrollments 
--- VALUES (8, 2); 
-
--- INSERT INTO Enrollments 
--- VALUES (7, 2); 
-
--- INSERT INTO Enrollments 
--- VALUES (8, 3); 
-
+-- 482, 486
 INSERT INTO Enrollments 
 VALUES (0, 1);
 
 INSERT INTO Enrollments 
-VALUES (1, 1);
+VALUES (7, 1);
+
+-- 281
+INSERT INTO Enrollments 
+VALUES (8, 1);
+
+-- 442, 445, 492
+INSERT INTO Enrollments 
+VALUES (4, 2); 
 
 INSERT INTO Enrollments 
-VALUES (3, 1);
+VALUES (5, 2);
 
 INSERT INTO Enrollments 
-VALUES (9, 2);
+VALUES (6, 2);
+
+-- 482, 486
+INSERT INTO Enrollments 
+VALUES (0, 2);
 
 INSERT INTO Enrollments 
-VALUES (2, 2);
+VALUES (7, 2);
 
+-- 281
 INSERT INTO Enrollments 
-VALUES (3, 2);
+VALUES (8, 2);
 
-INSERT INTO Projects 
-VALUES (1, 'p1');
+-- 281
+INSERT INTO Enrollments 
+VALUES (8, 3);
 
-INSERT INTO Members
-VALUES (1, 1);
+-- 281
+INSERT INTO Enrollments 
+VALUES (8, 4);
 
-INSERT INTO Members
-VALUES (1, 2);
+-- 281
+INSERT INTO Enrollments 
+VALUES (8, 5);
 
--- 0,7,8 
+-- INSERT INTO Projects 
+-- VALUES (1, 'p1');
+
+-- INSERT INTO Members
+-- VALUES (1, 1);
+
+-- INSERT INTO Members
+-- VALUES (1, 2);

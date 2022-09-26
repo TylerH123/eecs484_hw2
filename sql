@@ -10,6 +10,8 @@ set heading off
 
 @dropTables.sql
 @createTables.sql
+@loadStudents.sql
+@loadCourses.sql
 @loadData.sql
 
 exit;

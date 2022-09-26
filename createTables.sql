@@ -7,13 +7,13 @@ CREATE TABLE Students(
 
 CREATE TABLE Projects(
     PID INTEGER,
-    P_Name VARCHAR2(100),
+    P_Name VARCHAR2(100) UNIQUE,
     PRIMARY KEY(PID)
 );
 
 CREATE TABLE Courses(
     CID INTEGER,
-    C_Name VARCHAR2(100),
+    C_Name VARCHAR2(100) UNIQUE,
     PRIMARY KEY(CID)
 );
 

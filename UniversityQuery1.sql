@@ -8,5 +8,6 @@ FROM (
         FROM Students S, Enrollments E 
         WHERE S.SID = E.SID AND S.Major != 'CS'
     ) inner
+    GROUP BY inner.CID
     HAVING COUNT(*) > 9
 ); 

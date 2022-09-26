@@ -1,14 +1,32 @@
 INSERT INTO Students
-VALUES (0, 'TYLER', 'CS')
+VALUES (0, 'TYLER', 'CS');
 
 INSERT INTO Students
-VALUES (0, 'JEFF', 'CS')
+VALUES (1, 'JEFF', 'CS');
 
 INSERT INTO Students
-VALUES (0, 'AMY', 'ART')
+VALUES (2, 'AMY', 'ART');
 
 INSERT INTO Students
-VALUES (0, 'BOB', 'MATH')
+VALUES (3, 'BOB', 'MATH');
 
 INSERT INTO Students
-VALUES (0, 'CAM', 'EE')
+VALUES (4, 'CAM', 'EE');
+
+INSERT INTO Courses
+VALUES (0, 'EECS 183');
+
+INSERT INTO Courses
+VALUES (0, 'EECS 281');
+
+INSERT INTO Enrollments
+VALUES (0, 0);
+
+INSERT INTO Enrollments
+VALUES (1, 0);
+
+INSERT INTO Enrollments
+VALUES (2, 0);
+
+INSERT INTO Enrollments
+VALUES (3, 0);

@@ -13,11 +13,26 @@ VALUES (3, 'BOB', 'MATH');
 INSERT INTO Students
 VALUES (4, 'CAM', 'EE');
 
+INSERT INTO Students
+VALUES (5, 'DAVID', 'CS');
+
+INSERT INTO Students
+VALUES (6, 'EDWARD', 'CS');
+
 INSERT INTO Courses
 VALUES (0, 'EECS 183');
 
 INSERT INTO Courses
 VALUES (1, 'EECS 484');
+
+INSERT INTO Enrollments
+VALUES (6, 0);
+
+INSERT INTO Enrollments
+VALUES (5, 0);
+
+INSERT INTO Enrollments
+VALUES (4, 0);
 
 INSERT INTO Enrollments
 VALUES (0, 1);

@@ -1,47 +1,26 @@
-INSERT INTO Students
-VALUES (0, 'TYLER', 'CS');
+INSERT INTO Students VALUES 
+('TYLER', 'CS'),
+('JEFF', 'CS'),
+('AMY', 'ART'),
+('BOB', 'MATH'),
+('CAM', 'EE'),
+('DAVID', 'CS'),
+('EDWARD', 'CS'),
+('EDWARD', 'CS'),
+('EDWARD', 'CS'),
+('EDWARD', 'CS'),
+('EDWARD', 'CS'),
+('EDWARD', 'CS');
 
-INSERT INTO Students
-VALUES (1, 'JEFF', 'CS');
+INSERT INTO Courses VALUES 
+(0, 'EECS 183'),
+(1, 'EECS 484');
 
-INSERT INTO Students
-VALUES (2, 'AMY', 'ART');
-
-INSERT INTO Students
-VALUES (3, 'BOB', 'MATH');
-
-INSERT INTO Students
-VALUES (4, 'CAM', 'EE');
-
-INSERT INTO Students
-VALUES (5, 'DAVID', 'CS');
-
-INSERT INTO Students
-VALUES (6, 'EDWARD', 'CS');
-
-INSERT INTO Courses
-VALUES (0, 'EECS 183');
-
-INSERT INTO Courses
-VALUES (1, 'EECS 484');
-
-INSERT INTO Enrollments
-VALUES (0, 6);
-
-INSERT INTO Enrollments
-VALUES (0, 5);
-
-INSERT INTO Enrollments
-VALUES (0, 4);
-
-INSERT INTO Enrollments
-VALUES (0, 1);
-
-INSERT INTO Enrollments
-VALUES (1, 1);
-
-INSERT INTO Enrollments
-VALUES (0, 2);
-
-INSERT INTO Enrollments
-VALUES (0, 3);
+INSERT INTO Enrollments VALUES 
+(0, 6),
+(0, 5),
+(0, 4),
+(0, 1),
+(1, 1),
+(0, 2), 
+(0, 3);

@@ -1,3 +1,5 @@
+DROP SEQUENCE seq;
+DROP TRIGGER inc; 
 DROP TABLE Enrollments;
 DROP TABLE Members;
 DROP TABLE Courses; 

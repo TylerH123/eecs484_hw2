@@ -20,13 +20,7 @@ INSERT INTO Courses
 VALUES (1, 'EECS 281');
 
 INSERT INTO Enrollments (SID, CID)
-VALUES (0, 2);
-
-INSERT INTO Enrollments (SID, CID)
-VALUES (0, 3);
+VALUES (0, 0);
 
 INSERT INTO Enrollments (SID, CID)
 VALUES (1, 0);
-
-INSERT INTO Enrollments (SID, CID)
-VALUES (1, 1);

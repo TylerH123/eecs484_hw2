@@ -62,6 +62,26 @@ INSERT INTO Courses
 VALUES 
 (3, 'EECS280');
 
+INSERT INTO Courses 
+VALUES 
+(4, 'EECS442');
+
+INSERT INTO Courses 
+VALUES 
+(5, 'EECS445');
+
+INSERT INTO Courses 
+VALUES 
+(6, 'EECS492');
+
+INSERT INTO Courses 
+VALUES 
+(7, 'EECS486');
+
+INSERT INTO Courses 
+VALUES 
+(8, 'EECS281');
+
 INSERT INTO Enrollments 
 VALUES (0, 12); 
 
@@ -106,6 +126,18 @@ VALUES (2, 1);
 
 INSERT INTO Enrollments 
 VALUES (3, 1);
+
+INSERT INTO Enrollments 
+VALUES (3, 0);
+
+INSERT INTO Enrollments 
+VALUES (8, 2); 
+
+INSERT INTO Enrollments 
+VALUES (7, 2); 
+
+INSERT INTO Enrollments 
+VALUES (0, 2); 
 
 INSERT INTO Projects 
 VALUES (1, 'p1');

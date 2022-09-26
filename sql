@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo 'git pull'
 git pull
 
 sqlplus -s tylhuang/Tyler123H! << EOF

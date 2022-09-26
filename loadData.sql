@@ -142,6 +142,9 @@ VALUES (8, 2);
 INSERT INTO Enrollments 
 VALUES (7, 2); 
 
+INSERT INTO Enrollments 
+VALUES (8, 3); 
+
 INSERT INTO Projects 
 VALUES (1, 'p1');
 

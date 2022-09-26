@@ -66,10 +66,10 @@ INSERT INTO Enrollments
 VALUES (0, 12); 
 
 INSERT INTO Enrollments 
-VALUES (0, 11),
+VALUES (0, 11);
 
 INSERT INTO Enrollments 
-VALUES (0, 10),
+VALUES (0, 10);
 
 INSERT INTO Enrollments 
 VALUES (0, 9);

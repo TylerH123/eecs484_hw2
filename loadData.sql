@@ -1,4 +1,6 @@
-INSERT INTO Students VALUES 
+INSERT INTO Students 
+(Name, Major)
+VALUES 
 ('TYLER', 'CS'),
 ('JEFF', 'CS'),
 ('AMY', 'ART'),

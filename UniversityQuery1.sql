@@ -1,5 +1,5 @@
-SELECT Courses.CID FROM Courses 
-EXCEPT 
+SELECT CID FROM Courses 
+MINUS
 SELECT CID 
 FROM ( 
     SELECT inner.CID, COUNT(*)
@@ -10,4 +10,5 @@ FROM (
     ) inner
     GROUP BY inner.CID
     HAVING COUNT(*) > 9
-); 
+)
+ORDER BY CID DESC; 

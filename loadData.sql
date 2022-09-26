@@ -48,19 +48,19 @@ INSERT INTO Students
 
 INSERT INTO Courses 
 VALUES 
-(0, 'EECS 183');
+(0, 'EECS482');
 
 INSERT INTO Courses 
 VALUES 
-(1, 'EECS 484');
+(1, 'EECS484');
 
 INSERT INTO Courses 
 VALUES 
-(2, 'HISTART 292');
+(2, 'EECS485');
 
 INSERT INTO Courses 
 VALUES 
-(3, 'COMM 306');
+(3, 'EECS280');
 
 INSERT INTO Enrollments 
 VALUES (0, 12); 
@@ -100,3 +100,9 @@ VALUES (0, 1);
 
 INSERT INTO Enrollments 
 VALUES (1, 1);
+
+INSERT INTO Enrollments 
+VALUES (2, 1);
+
+INSERT INTO Enrollments 
+VALUES (3, 1);

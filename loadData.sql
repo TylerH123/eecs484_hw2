@@ -108,7 +108,7 @@ INSERT INTO Enrollments
 VALUES (3, 1);
 
 INSERT INTO Projects 
-VALUES (1, "p1");
+VALUES (1, 'p1');
 
 INSERT INTO Members
 VALUES (1, 1);

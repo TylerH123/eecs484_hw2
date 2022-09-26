@@ -82,6 +82,10 @@ INSERT INTO Courses
 VALUES 
 (8, 'EECS281');
 
+INSERT INTO Courses 
+VALUES 
+(9, 'EECS483');
+
 -- INSERT INTO Enrollments 
 -- VALUES (0, 12); 
 
@@ -112,38 +116,56 @@ VALUES
 -- INSERT INTO Enrollments 
 -- VALUES (0, 3); 
 
-INSERT INTO Enrollments 
-VALUES (0, 2);
+-- INSERT INTO Enrollments 
+-- VALUES (0, 2);
 
-INSERT INTO Enrollments 
-VALUES (4, 1); 
+-- INSERT INTO Enrollments 
+-- VALUES (4, 1); 
 
-INSERT INTO Enrollments 
-VALUES (5, 1);
+-- INSERT INTO Enrollments 
+-- VALUES (5, 1);
 
-INSERT INTO Enrollments 
-VALUES (6, 1);
+-- INSERT INTO Enrollments 
+-- VALUES (6, 1);
+
+-- INSERT INTO Enrollments 
+-- VALUES (0, 1);
+
+-- INSERT INTO Enrollments 
+-- VALUES (7, 1);
+
+-- INSERT INTO Enrollments 
+-- VALUES (8, 1);
+
+-- INSERT INTO Enrollments 
+-- VALUES (3, 2);
+
+-- INSERT INTO Enrollments 
+-- VALUES (8, 2); 
+
+-- INSERT INTO Enrollments 
+-- VALUES (7, 2); 
+
+-- INSERT INTO Enrollments 
+-- VALUES (8, 3); 
 
 INSERT INTO Enrollments 
 VALUES (0, 1);
 
 INSERT INTO Enrollments 
-VALUES (7, 1);
+VALUES (1, 1);
 
 INSERT INTO Enrollments 
-VALUES (8, 1);
+VALUES (3, 1);
+
+INSERT INTO Enrollments 
+VALUES (9, 2);
+
+INSERT INTO Enrollments 
+VALUES (2, 2);
 
 INSERT INTO Enrollments 
 VALUES (3, 2);
-
-INSERT INTO Enrollments 
-VALUES (8, 2); 
-
-INSERT INTO Enrollments 
-VALUES (7, 2); 
-
-INSERT INTO Enrollments 
-VALUES (8, 3); 
 
 INSERT INTO Projects 
 VALUES (1, 'p1');
@@ -153,3 +175,5 @@ VALUES (1, 1);
 
 INSERT INTO Members
 VALUES (1, 2);
+
+-- 0,7,8 

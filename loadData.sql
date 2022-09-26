@@ -1,0 +1,14 @@
+INSERT INTO Students
+VALUES (0, 'TYLER', 'CS')
+
+INSERT INTO Students
+VALUES (0, 'JEFF', 'CS')
+
+INSERT INTO Students
+VALUES (0, 'AMY', 'ART')
+
+INSERT INTO Students
+VALUES (0, 'BOB', 'MATH')
+
+INSERT INTO Students
+VALUES (0, 'CAM', 'EE')

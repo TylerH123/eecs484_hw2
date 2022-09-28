@@ -6,4 +6,7 @@ FROM Books B, Authors A,
   AND TO_TIMESTAMP(E.Publication_Date, 'YYYY-MM-DD')  <= TO_TIMESTAMP('2008-12-31', 'YYYY-MM-DD')
 ) inner
 WHERE inner.Book_ID = B.Book_ID AND B.Author_ID = A.Author_ID
-ORDER BY TO_TIMESTAMP(inner.Publication_Date, 'YYYY-MM-DD') DESC;
+ORDER BY 
+  A.Author_ID ASC, 
+  B.Title ASC,
+  TO_TIMESTAMP(inner.Publication_Date, 'YYYY-MM-DD') DESC;

@@ -7,3 +7,7 @@ FROM Authors A, Books B,
 ) inner
 WHERE B.Subject_ID = inner.Subject_ID AND A.Author_ID = B.Author_ID
 ORDER BY A.Last_Name ASC, A.Author_ID DESC;
+
+--
+SELECT Subject_ID FROM Books
+GROUP BY Subject_ID; 
